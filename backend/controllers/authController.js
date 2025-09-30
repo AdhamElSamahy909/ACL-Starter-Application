@@ -1,6 +1,6 @@
 const asyncHandler = require("express-async-handler");
 const jwt = require("jsonwebtoken");
-const User = require("../models/userModel");
+const User = require("../models/User/baseUserModel");
 const redisClient = require("../config/redisConfig");
 const bcrypt = require("bcryptjs");
 
